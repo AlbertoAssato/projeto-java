@@ -15,12 +15,12 @@ public class AgendamentoController {
         return "agendamento/exame";
     }
 
-//    //teste
-//    @PostMapping("exame")
-//    public String cadastrarExame(String nome, Model model ){
-//        model.addAttribute("mensagem", nome + "seu exame foi agendado!");
-//        return "agendamento/exame";
-//    }
+    //teste
+    @PostMapping("exame")
+    public String cadastrarExame(String nome, Model model ){
+        model.addAttribute("mensagem", nome + " seu exame foi agendado!");
+        return "agendamento/exame";
+    }
 
 
 
